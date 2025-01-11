@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 
 const Home = () => {
 	return (
-		<main className="px-4 outline">
+		<main>
 			<Hero />
 			<Projects />
 			<Contact />

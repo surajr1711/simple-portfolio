@@ -2,6 +2,21 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import qitchen from "../../public/qitchen.webp";
 import bottle from "../../public/bottle.webp";
 
+export const navlinks = [
+	{
+		label: "Home",
+		url: "/",
+	},
+	{
+		label: "Projects",
+		url: "#projects",
+	},
+	{
+		label: "Contact",
+		url: "#contact",
+	},
+];
+
 export const skills = {
 	web: ["React/Next", "Node", "MongoDB", "Tailwind", "Styled Components", "Sass", "React-Three-Fibre", "GSAP"],
 	creative: ["Figma", "Illustrator", "Blender", "Webflow", "Wordpress"],
@@ -31,8 +46,8 @@ export const projects: ProjectType[] = [
 	},
 ];
 
-export const contact = {
-	email: "surajr1711@gmail.com",
-	linkedin: "https://www.linkedin.com/in/suraj-radhakrishnan-77399654/",
-	github: "https://github.com/surajr1711",
-};
+export const contact = [
+	{ label: "Email", prefix: "mailto:", url: "surajr1711@gmail.com" },
+	{ label: "Linkedin", prefix: "https://www.linkedin.com/", url: "in/surajr1711" },
+	{ label: "Github", prefix: "https://github.com/", url: "surajr1711" },
+];
