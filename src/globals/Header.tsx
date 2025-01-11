@@ -3,12 +3,12 @@ import Image from "next/image";
 import Profile from "../../public/suraj.webp";
 import Link from "next/link";
 import { navlinks } from "@/data/data";
-import { Button } from "@/components/ui/button";
-import { LucideSun } from "lucide-react";
+// import { Button } from "@/components/ui/button";
+// import { LucideSun } from "lucide-react";
 
 const Header = () => {
 	return (
-		<header className=" py-8">
+		<header className=" py-8 ">
 			<div className=" container flex justify-between items-center">
 				{/* profile */}
 				<div className="w-10 h-10 rounded-full relative overflow-hidden">
@@ -29,11 +29,11 @@ const Header = () => {
 							))}
 					</ul>
 					{/* dark mode button */}
-					<div className="">
+					{/* <div className="">
 						<Button variant="outline" size="icon">
 							<LucideSun />
 						</Button>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</header>
